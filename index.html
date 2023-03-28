@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>Sign Up Form</title>
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label for="f-name"> Firt name :</label>
+			<input type="text" name="f-name" id="f-name">
+		</div>
+		<div>
+			<label for="s-name"> Last name :</label>
+			<input type="text" name="s-name" id="s-name">
+		</div>
+		<div>
+			<label for="age"> Age :</label>
+			<input type="number" name="age" id="age">
+		</div>
+		<div>
+			<p>Gender</p>
+			<label for="male">Male</label>
+			<input type="radio" class="gender" name="gender" value="ner">
+			<hr>
+			<label for="female">Female</label>
+			<input type="radio" class="gender" name="gender" value="Me">
+		</div>
+		<div>
+			<label for="student"> Student :</label>
+			<input type="checkbox" name="xwendkar" id="student">
+		</div>
+		<div>
+			<label for="city">Shar</label>
+			<select name="city" id="city">
+				<option value="...">Pick a city....</option>
+				<option value="Sulaimani">London</option>
+				<option value="Hewler">manchester</option>
+				<option value="Duhok">Leeds</option>
+				<option value="Kirkuk">Birmingham</option>
+			</select>
+		</div>
+		<button id="button">Sing Up</button>
+	</form>
+	<div id="infos">
+		<div>
+			<p>Name:</p>
+			<p id="student-name"></p>
+		</div>
+		<div>
+			<p>Age:</p>
+			<p id="student-age"></p>
+		</div>
+		<div>
+			<p>Gender:</p>
+			<p id="student-gender"></p>
+		</div>
+		<div>
+			<p>Is student? </p>
+			<p id="is-student"></p>
+		</div>
+		<div>
+			<p>City:</p>
+			<p id="student-city"></p>
+		</div>
+	</div>
+	<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
